@@ -1,0 +1,204 @@
+.t1{
+  background-color: #EAE8FF;
+  height: 700px;
+padding-top: 80px;
+}
+.t2{
+  background-color: #7D82B8;
+ height: 700px;
+padding-top: 80px;
+}
+.t3{ 
+padding-top: 80px;
+height: 700px;
+  background-color: #613F75;
+}
+.centerAlign{
+  margin:auto;
+}
+.fullwidth{
+width: 100%;
+}
+.panel-body{
+	color: #00171F;
+}
+.panel{
+	border: none;
+}
+.headings{
+	text-align: center;
+	color: #00171F;
+}
+.sliderMain{
+	width: 100%;
+	height: 770px;
+	padding-right: 0px;
+	padding-left: 0px;
+
+}
+.carousel-control.left, .carousel-control.right {
+	background-image: none;
+}
+/*navbar*/
+.transparent{
+	background-color: rgba(255, 255, 255, 0.2);
+	transition: background-color 2000ms ease;
+	
+}
+ .transparentNav{     
+	background-color: rgba(255, 255, 255, 0.6);     
+	height: 60px;     
+	transition: all 3000ms ease;
+}
+
+.fixed{
+	background-color: rgba(0,0,0, 0.9);
+	height: 30px;
+	transition: all 3000ms ease;
+}
+/*trinity*/
+.underImg{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.iconTeam {
+  position: relative;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.iconTeam,
+.iconTeam * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.iconTeam a {
+  color: #333;
+}
+.iconTeam a:hover {
+  text-decoration: none;
+}
+.iconTeam img {
+  width: 100%;
+  height: 100%;
+}
+
+.iconTeam.circle {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+}
+.iconTeam.circle .img {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+}
+.iconTeam.circle .img:before {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.iconTeam.circle .img img {
+  border-radius: 50%;
+}
+.iconTeam.circle .info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.iconTeam.circle.effect13.colored .info {
+  background: #1a4a72;
+  background: rgba(26, 74, 114, 0.6);
+}
+.iconTeam.circle.effect13 .info {
+  background: #333333;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.iconTeam.circle.effect13 .info h3 {
+  visibility: hidden;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin: 0 30px;
+  padding: 55px 0 0 0;
+  height: 110px;
+  text-shadow: 0 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.iconTeam.circle.effect13 .info p {
+  visibility: hidden;
+  color: #bbb;
+  padding: 10px 5px;
+  font-style: italic;
+  margin: 0 30px;
+  font-size: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.iconTeam.circle.effect13 a:hover .info {
+  opacity: 1;
+}
+.iconTeam.circle.effect13 a:hover h3 {
+  visibility: visible;
+}
+.iconTeam.circle.effect13 a:hover p {
+  visibility: visible;
+}
+.iconTeam.circle.effect13.bottom_to_top .info h3 {
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  transform: translateY(100%);
+}
+.iconTeam.circle.effect13.bottom_to_top .info p {
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  transform: translateY(100%);
+}
+.iconTeam.circle.effect13.bottom_to_top a:hover h3 {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+.iconTeam.circle.effect13.bottom_to_top a:hover p {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
